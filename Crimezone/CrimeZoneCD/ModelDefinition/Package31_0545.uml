@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d38a537b-675b-4c29-a563-5b77443160e6"
+  name="RegularExpressions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2a9eaae5-81f9-41cb-ab1e-2110979aa709"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Text.RegularExpressions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="95aae51a-16cf-4586-aac8-3c3bc00d4a52"
+        name="Regex"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cefe1379-9834-496c-bca8-257c70cf1aeb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.dll&quot; Namespace%3DSystem.Text.RegularExpressions Type%3DRegex"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4d78d701-bf4f-485e-9994-c96dbd1d659c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a7f4060-da57-48eb-9499-c35710c974ec">
+                <propertyInstance
+                  Id="03d56f2b-6a0b-42ff-aa7b-e0f26ce24ac2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ec62b85-2027-4858-8260-36c0b6a7164e">
+                <propertyInstance
+                  Id="88db17f5-abf2-460b-b7f6-9cdc7227b569"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="779b857c-0a57-4345-92ea-7f4e66e0f51a">
+                <propertyInstance
+                  Id="fd14d923-a17f-4458-a7cb-3fabe5f5cf64"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="775073c3-19de-4af1-b38b-42231a436f0c">
+                <propertyInstance
+                  Id="b995b187-1aeb-4a57-8352-e1c8a8adf254"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="edc944d8-a185-425a-b6f2-9d84813d1037">
+                <propertyInstance
+                  Id="0751aeda-133d-4d20-84d3-572306d59dcc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

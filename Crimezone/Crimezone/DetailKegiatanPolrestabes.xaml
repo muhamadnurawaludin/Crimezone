@@ -1,0 +1,114 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Crimezone.DetailKegiatanPolrestabes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFB8B3AF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <Grid Grid.Row="0" Margin="0,0,0,0" Background="#FFF1C40F">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Image Source="/Assets/Navigation/Header.png" Width="180" Height="64" Margin="0,-14,0,10" HorizontalAlignment="Center" VerticalAlignment="Bottom"></Image>
+            </Grid>
+            <Grid Grid.Column="1">
+                <!--<TextBlock FontFamily="Segoe WP Light" Text="Detail Kegiatan Polrestabes" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Center" Width="0,0,25,0"/>-->
+            </Grid>
+        </Grid>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox ItemsSource="{Binding BindKegiatanCollection}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+
+                <Grid HorizontalAlignment="Left" Height="639" VerticalAlignment="Top" Width="480">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Ellipse HorizontalAlignment="Center" Height="50" Width="50" Margin="10,5,0,5" VerticalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="/Assets/PolresAva.png" Stretch="UniformToFill"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Grid>
+                        <Grid Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,147,0">
+                            <TextBlock Text="{Binding judul_kegiatan}" Foreground="#FF474141" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,5,0,5"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="{Binding tanggal_kegiatan}" Foreground="#FF474141" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,40,0" Width="249" FontSize="16" TextAlignment="Right" />
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="168*"/>
+                                    <ColumnDefinition Width="121*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding waktu_kegiatan}" Foreground="#FF474141" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,40,0" Width="249" TextAlignment="Right" FontSize="16" Grid.ColumnSpan="2" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1" >
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/Assets/DetailPolresBg.png"/>
+                        </Grid.Background>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Image Source="/Assets/PolresMap.png" Stretch="UniformToFill" Height="30" Margin="15,5,0,5"></Image>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBlock Text="{Binding alamat_kegiatan}" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Segoe WP Light" Margin="10,0,0,0" FontSize="16" ></TextBlock>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="2" Background="White">
+                        <TextBlock TextWrapping="Wrap" Text="{Binding deskripsi_kegiatan}" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                        </TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="3" Background="#FFF1C40F" Height="3"/>
+                </Grid>
+               </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

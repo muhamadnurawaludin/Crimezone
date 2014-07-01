@@ -1,0 +1,125 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Crimezone.PostingLaporan"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" Background="#FFF1C40F">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFF1C40F">
+   
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListBox Margin="0,0,0,-132" Grid.RowSpan="2">
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel Grid.Row="0" Margin="0,0,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="315"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Image Source="/Assets/Navigation/Header.png" Width="180" Height="60" Margin="-100,0,0,0" Tap="Header_Tap" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBlock FontFamily="Segoe WP Light" Text="Laporan Kejahatan" TextAlignment="Center" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+            </StackPanel>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Width="480">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="220"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Background="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="240"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Ellipse Margin="16,6,162,4">
+                                <Ellipse.Fill>
+                                    <ImageBrush Stretch="Uniform" ImageSource="/Assets/mumu.png"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBlock Text="Muhamad Nur Awaludin" FontSize="24" Foreground="Black" TextAlignment="Center" FontFamily="Segoe UI" Margin="-272,15,0,10"></TextBlock>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.Background>
+                            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/UploadGambarBg.png"/>
+                        </Grid.Background>
+                        <!--image untuk nyimpen gambar dari kamera-->
+                        <Image x:Name="foto_kejahatan" Width="130" Height="130" Margin="175,0,175,60"/>
+                        <Button Click="BtnUpload_Click" BorderThickness="0" Width="257" Height="68" Margin="0,140,0,0">
+                            <Button.Background>
+                                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Button/AddImageBtn.png"/>
+                            </Button.Background>
+                        </Button>
+                    </Grid>
+                   <Grid Grid.Row="2">
+                        <TextBox x:Name="judulKejahatan" Foreground="Gray"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <TextBox x:Name="deskripsi_kejahatan" TextWrapping="Wrap" AcceptsReturn="True" Foreground="Gray"/>
+                    </Grid>
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <toolkit:ListPicker  HorizontalAlignment="Left"  Name="ListPickerJenisKejahatan"
+                                 VerticalAlignment="Top" Margin="12,12,0,0" Width="218" >
+                                <toolkit:ListPicker.Header>
+                                    <TextBlock Text="Jenis Kejahatan" Foreground="#99000000" FontFamily="Segoe UI" TextAlignment="Center"></TextBlock>
+                                </toolkit:ListPicker.Header>
+
+                                <toolkit:ListPickerItem Content="Perampokan"></toolkit:ListPickerItem>
+
+                            </toolkit:ListPicker>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <toolkit:ListPicker  HorizontalAlignment="Left"  Name="ListPickerLokasi"
+                                 VerticalAlignment="Top"  Margin="12,12,0,0" Width="218" >
+                                <toolkit:ListPicker.Header>
+                                    <TextBlock Text="Lokasi Kejahatan" Foreground="#99000000" FontFamily="Segoe UI" TextAlignment="Center"></TextBlock>
+                                </toolkit:ListPicker.Header>
+                                <toolkit:ListPickerItem Content="Jalan Umum"></toolkit:ListPickerItem>
+                            </toolkit:ListPicker>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="5">
+                        <!-- Kembali lagi ke tampilan timeline aplikasi-->
+                        <Button Content="Publish" Click="BtnPublish"></Button>
+                    </Grid>
+
+
+                </Grid>
+            </Grid>
+        </ListBox>
+    </Grid>
+
+</phone:PhoneApplicationPage>

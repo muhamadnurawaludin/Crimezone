@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c5748d21-7b2b-4470-8aa3-1fca4491a60c"
+  name="Maps"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="de48fbfd-8099-47f8-b678-968c84642cde"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Phone.Maps"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6727117f-b888-4658-9a64-1835868934f7"
+        LastKnownName="Controls"
+        LastKnownLocation="Package17_0545.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7a4a994a-60bd-40a5-b13b-619668d398e9"
+        LastKnownName="Services"
+        LastKnownLocation="Package18_0545.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

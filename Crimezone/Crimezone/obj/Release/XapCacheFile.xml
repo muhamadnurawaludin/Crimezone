@@ -1,0 +1,71 @@
+﻿<xapCache source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Bin\Release\Crimezone_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="27/06/2014 11:26:21">
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\obj\Release\Crimezone.dll" archivePath="Crimezone.dll" lastWriteTime="27/06/2014 11:26:19" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Add.png" archivePath="Assets\Add.png" lastWriteTime="08/06/2014 1:01:43" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\AppBar\add.png" archivePath="Assets\AppBar\add.png" lastWriteTime="04/03/2013 10:40:36" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\BgLogin.png" archivePath="Assets\BgLogin.png" lastWriteTime="09/06/2014 22:08:02" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\AddImageBtn.png" archivePath="Assets\Button\AddImageBtn.png" lastWriteTime="08/06/2014 12:33:09" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\FacebookBtn.png" archivePath="Assets\Button\FacebookBtn.png" lastWriteTime="09/06/2014 22:11:34" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\LoginHijau.png" archivePath="Assets\Button\LoginHijau.png" lastWriteTime="09/06/2014 22:11:34" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\MasukBtn.png" archivePath="Assets\Button\MasukBtn.png" lastWriteTime="09/06/2014 22:11:34" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\DetailPolresBg.png" archivePath="Assets\DetailPolresBg.png" lastWriteTime="08/06/2014 15:10:17" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\LoadingLogin.png" archivePath="Assets\LoadingLogin.png" lastWriteTime="08/06/2014 2:51:59" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Pembakaran.png" archivePath="Assets\Marker\Pembakaran.png" lastWriteTime="10/06/2014 7:17:02" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Pembunuhan.png" archivePath="Assets\Marker\Pembunuhan.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Pemerkosaan 2.png" archivePath="Assets\Marker\Pemerkosaan 2.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Pemerkosaan.png" archivePath="Assets\Marker\Pemerkosaan.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\penculikan 2.png" archivePath="Assets\Marker\penculikan 2.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Penculikan.png" archivePath="Assets\Marker\Penculikan.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Penganiayaan.png" archivePath="Assets\Marker\Penganiayaan.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Marker\Perampokan.png" archivePath="Assets\Marker\Perampokan.png" lastWriteTime="10/06/2014 7:17:03" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\Header.png" archivePath="Assets\Navigation\Header.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\MapActive.png" archivePath="Assets\Navigation\MapActive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\MapInactive.png" archivePath="Assets\Navigation\MapInactive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\PolresActive.png" archivePath="Assets\Navigation\PolresActive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\PolresInactive.png" archivePath="Assets\Navigation\PolresInactive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\TimelineActive.png" archivePath="Assets\Navigation\TimelineActive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Navigation\TimelineInactive.png" archivePath="Assets\Navigation\TimelineInactive.png" lastWriteTime="05/06/2014 1:08:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\PolresAva.png" archivePath="Assets\PolresAva.png" lastWriteTime="08/06/2014 15:19:13" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\PolresMap.png" archivePath="Assets\PolresMap.png" lastWriteTime="08/06/2014 15:15:06" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\UploadGambarBg.png" archivePath="Assets\UploadGambarBg.png" lastWriteTime="08/06/2014 14:23:54" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Fonts\BebasNeue.otf" archivePath="Fonts\BebasNeue.otf" lastWriteTime="31/05/2014 11:21:10" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="08/06/2014 12:07:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\SplashScreenImage.screen-720p.jpg" archivePath="SplashScreenImage.screen-720p.jpg" lastWriteTime="08/06/2014 2:39:49" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\SplashScreenImage.screen-WVGA.jpg" archivePath="SplashScreenImage.screen-WVGA.jpg" lastWriteTime="08/06/2014 2:39:49" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\SplashScreenImage.screen-WXGA.jpg" archivePath="SplashScreenImage.screen-WXGA.jpg" lastWriteTime="08/06/2014 2:39:49" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="08/06/2014 12:07:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="08/06/2014 12:07:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="08/06/2014 12:07:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="08/06/2014 12:07:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="08/06/2014 12:07:04" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="24/05/2014 10:56:28" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="10/06/2014 13:38:39" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\Login.png" archivePath="Assets\Button\Login.png" lastWriteTime="24/05/2014 13:02:23" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\LoginWithFacebook.png" archivePath="Assets\Button\LoginWithFacebook.png" lastWriteTime="24/05/2014 13:02:23" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Button\MasukAplikasi.png" archivePath="Assets\Button\MasukAplikasi.png" lastWriteTime="24/05/2014 13:02:23" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\CIMB.png" archivePath="Assets\CIMB.png" lastWriteTime="31/05/2014 11:47:13" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\clock.png" archivePath="Assets\clock.png" lastWriteTime="31/05/2014 11:05:17" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Location.png" archivePath="Assets\Location.png" lastWriteTime="31/05/2014 11:05:17" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\LogoCrimezone.png" archivePath="Assets\LogoCrimezone.png" lastWriteTime="31/05/2014 11:23:16" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\LogoCrimezoneKuning.png" archivePath="Assets\LogoCrimezoneKuning.png" lastWriteTime="31/05/2014 11:45:05" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\mumu.png" archivePath="Assets\mumu.png" lastWriteTime="31/05/2014 11:51:21" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Splashscreen.png" archivePath="Assets\Splashscreen.png" lastWriteTime="24/05/2014 13:04:41" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="24/05/2014 10:56:28" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="24/05/2014 10:56:28" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="24/05/2014 10:56:28" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="24/05/2014 10:56:28" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Walktrough2.png" archivePath="Assets\Walktrough2.png" lastWriteTime="05/06/2014 4:20:19" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Walktrough3.png" archivePath="Assets\Walktrough3.png" lastWriteTime="05/06/2014 9:33:26" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Assets\Walktrough4.png" archivePath="Assets\Walktrough4.png" lastWriteTime="05/06/2014 4:20:19" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="25/06/2014 6:23:35" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="10/06/2014 13:43:19" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\MapPushpinSample\MapPushpinSample\Bin\Debug\MDIL\MapPushpinSample.dll" archivePath="MapPushpinSample.dll" lastWriteTime="09/06/2014 12:28:44" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="03/03/2013 19:40:38" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.Maps.dll" archivePath="Microsoft.Phone.Controls.Maps.dll" lastWriteTime="06/07/2012 16:40:16" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="08/06/2014 12:07:04" />
+  <file source="H:\Mumu's Data\hyjabs\Hyjabs\Bin\Debug\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="06/06/2013 13:33:22" />
+  <file source="G:\hyjabs\Hyjabs\Bin\Debug\MDIL\RestSharp.WindowsPhone.dll" archivePath="RestSharp.WindowsPhone.dll" lastWriteTime="07/09/2012 12:37:34" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.Maps.xml" archivePath="Microsoft.Phone.Controls.Maps.xml" lastWriteTime="06/07/2012 16:39:54" />
+  <file source="H:\Mumu's Data\hyjabs\Hyjabs\Bin\Debug\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="06/06/2013 13:33:22" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\logo.png" archivePath="logo.png" lastWriteTime="10/06/2014 13:31:45" />
+  <file source="C:\Users\handika\Documents\Visual Studio 2012\Projects\Crimezone\Crimezone\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="27/06/2014 11:26:20" />
+</xapCache>

@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ab441b17-f0fd-4439-a42b-19a8dff85162"
+  name="Tools"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5b6168b8-0a23-4da4-83bd-c05983965365"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTools"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="f188d858-6ec5-44c9-b46d-b58dd7578181">
+      <profileInstance
+        Id="c13d6f19-d89a-485a-89e6-6d151d073616"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f80eec2c-b102-4699-9fc8-282716345eee"
+        name="KeyValuePairUtils"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b859a096-1203-4683-9805-df247bf4cb05"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="551ce828-1e5e-461f-8c49-16cc02f641b0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3460c8b-4c40-406e-91a7-41a04f622fdc">
+                <propertyInstance
+                  Id="e1fcf0e0-5300-433d-9901-6a61119d7b6d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87974e15-bcdd-4de5-829a-707c9a06c418">
+                <propertyInstance
+                  Id="a997a335-c1a1-449f-88ad-d0f75610d49a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d218b742-10c0-4c51-9f26-6ccef82a3d5a">
+                <propertyInstance
+                  Id="8042df83-a534-4ab0-a08e-7c342610248d"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="769ac580-2ece-4eab-82ab-2869a026e268">
+                <propertyInstance
+                  Id="4af5301e-4ae6-4f84-aacc-352d97efbe5e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2a66db4-d6e1-48a1-a1dd-098b33cd2b2f">
+                <propertyInstance
+                  Id="e369b8c2-01cf-4880-bcea-c3fb0601f7e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="45d92d35-6d4c-4506-bc4d-58317a4cc168"
+            name="GetValue‎&lt;TKey‎, TValue‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3ad1ffcb-2f44-49b0-9c89-bada8c115dba"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils Member%3D(Name%3DGetValue GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DKeyValuePair GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))%2C(ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c738d436-15af-4c9b-b861-6523d7db679f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d017419a-96c5-43fb-9216-59473444a3b0">
+                    <propertyInstance
+                      Id="93864006-d66e-45a9-afe8-5d7e7680a89f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32342f31-a952-4dc8-b54e-625aff0c960d">
+                    <propertyInstance
+                      Id="6501f954-5225-4101-a9e9-e32ea8e29181"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f17a8c3-3c55-48da-9c7d-c86b80c9c041">
+                    <propertyInstance
+                      Id="535e6980-8640-48af-825a-b72b20321d17"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d147397a-dd8d-41c4-9db2-1875491af49e">
+                    <propertyInstance
+                      Id="fc0d1de9-ea61-4f18-bb55-4ee7b36cee0b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fd878b6-8b61-42fd-bdfe-0e8811b52f44">
+                    <propertyInstance
+                      Id="8670cec8-0c17-4a9b-a676-aa3d32f696f5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fd0cd65-4f87-44d9-b4cb-8bce5c58a1b6">
+                    <propertyInstance
+                      Id="dfe6ea3a-c460-4e56-afda-b8231e93ce3c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="11552338-477c-4945-ab81-6cc763fe3a68"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fccddd8e-357a-4f6a-9260-d0e49bc9e72b"
+                      LastKnownName="TValue"
+                      LastKnownLocation="Package29_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59463d1d-a47e-4413-b184-e795d5345218"
+                  name="pairs"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="352f21f0-59f7-4b8a-8145-49de9db309a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils Member%3D(Name%3DGetValue GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DKeyValuePair GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))%2C(ParameterIdentifier%3D0)]) ParameterIdentifier%3Dpairs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="4ecf347f-a879-43fb-b0cd-94e65a564b53"
+                      LastKnownName="IEnumerable&lt;KeyValuePair‎&lt;TKey‎, TValue‎&gt;‎&gt;"
+                      LastKnownLocation="Package20_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6fc8d4fa-8836-412a-8ca7-4d8c71b96fb7"
+                  name="key"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4691dada-9f54-4a1c-86e7-6e7c6ee63ea9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils Member%3D(Name%3DGetValue GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DKeyValuePair GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))%2C(ParameterIdentifier%3D0)]) ParameterIdentifier%3Dkey"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="3158f889-dd73-4a1d-910c-55a84d386276"
+                      LastKnownName="TKey"
+                      LastKnownLocation="Package29_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ff24041e-a92a-41c3-ac34-e98558600bf5"
+        name="UriToolKits"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ff7d565f-b287-4380-b4cb-d35ce6b4e73d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DUriToolKits"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="48c28411-52fa-45e3-bcaa-ae29952528d3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="528ceb47-3289-40a2-b9f0-8ca190610062">
+                <propertyInstance
+                  Id="9e713675-4406-4105-ad23-691ffa3428eb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0196289-d4d3-492e-88ec-3188aa1a5766">
+                <propertyInstance
+                  Id="bd5a4c01-bb44-45f9-8e49-ba0dcbffeed7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43d0f754-2fcc-4807-9098-ef2f1f6d4613">
+                <propertyInstance
+                  Id="37b3fa54-4ca0-4b37-8f8b-064dddc3391c"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="619e3f66-dc8c-4029-a692-c6e2b52a867e">
+                <propertyInstance
+                  Id="93bb1dcb-5b77-4f9b-9ddc-14cc961debf1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d124e58-6305-4942-8420-c2176d5aa622">
+                <propertyInstance
+                  Id="78705b44-22d3-4bfd-89f6-4453a9fc4760"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="a777030d-3a21-4689-8565-467d4526ae43"
+            name="QueryStringRegex"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9720da4e-8034-4741-87e1-17a08af6551f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DUriToolKits Member%3DQueryStringRegex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9d55cfa3-b2b6-468b-afcf-c6ab8c0ac167"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe7ca613-a5ee-42eb-8ba1-b7b8d3794e1c">
+                    <propertyInstance
+                      Id="94c68660-4f65-4e65-97dc-39c0f566d345"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1bea013-85ea-4ba5-940f-dea2238331f5">
+                    <propertyInstance
+                      Id="2a2d6b1d-30e3-4ed1-9aef-0c4939e8abd1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a41fda39-c283-42a9-bdc7-927322f4f3de">
+                    <propertyInstance
+                      Id="076a3af5-b642-47e9-93d6-4bc1171bff05"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26adc289-ef7c-4527-b93c-c992fdfa767a">
+                    <propertyInstance
+                      Id="7cf6cbf8-8a51-4481-b85e-6ba6a10b2150"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="792085be-aac1-4949-a9cb-a7b75d289984">
+                    <propertyInstance
+                      Id="c5bfde76-5aaf-488f-b385-2c5b2b329668"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="95aae51a-16cf-4586-aac8-3c3bc00d4a52"
+                LastKnownName="Regex"
+                LastKnownLocation="Package31_0545.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c5fa90a2-44fa-4123-94dc-c1fe7e82bba0"
+            name="ParseQueryString"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="97a288ad-dadf-407f-9ca6-5722ea454d29"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DUriToolKits Member%3D(Name%3DParseQueryString OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="11b7acd5-288a-4342-8a3a-f4cbe7a6bb7c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cb82a19-e1ff-455e-8154-6b5e2fb058ca">
+                    <propertyInstance
+                      Id="c94011f1-8af0-4f0d-b699-e16d63146ccd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63d5fb53-8db9-4756-a2df-76f1fb4441f9">
+                    <propertyInstance
+                      Id="08f2f47a-6952-4e91-97dc-d39a9546808d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d42e68f-cafb-4e6a-9e59-c64961ff57f6">
+                    <propertyInstance
+                      Id="81ca70fc-8ce2-4c41-a9e4-76512d156f07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b45c7cd5-2550-4b56-8437-a766ce4fe22c">
+                    <propertyInstance
+                      Id="b3e0b7fe-3d8d-4d30-a195-5cd3c4e46595"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6e32fd6-7438-4381-b449-ecdd36909cff">
+                    <propertyInstance
+                      Id="0aecce66-fda5-41a0-8170-1fa364a7640d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06168345-0a95-45a7-a926-45c5d5c6373a">
+                    <propertyInstance
+                      Id="e4f116bf-a0ba-48be-877c-9915d2cb3231"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e9e755b-3489-4e5b-9f0c-af04abecceed"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="56aaf198-69b2-416d-85bf-67772f5ea5c1"
+                      LastKnownName="IEnumerable&lt;KeyValuePair‎&lt;String‎, String‎&gt;‎&gt;"
+                      LastKnownLocation="Package20_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5efc4061-67b1-4b06-9f04-b4738148f927"
+                  name="uri"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4ff28a91-b599-4817-a5a3-69698e0561f4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DUriToolKits Member%3D(Name%3DParseQueryString OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Duri"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="CrimeZoneCD.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fccddd8e-357a-4f6a-9260-d0e49bc9e72b"
+        name="TValue">
+        <referencesInternal>
+          <reference
+            Id="681f8734-9231-4c20-bcaa-d2bb2336bc45"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils Member%3D(Name%3DGetValue GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DKeyValuePair GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))%2C(ParameterIdentifier%3D0)]) ParameterIdentifier%3D1"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="3158f889-dd73-4a1d-910c-55a84d386276"
+        name="TKey">
+        <referencesInternal>
+          <reference
+            Id="3b6e849d-524b-4a5f-bd0a-ed469ac73f50"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DTools Type%3DKeyValuePairUtils Member%3D(Name%3DGetValue GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DKeyValuePair GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))%2C(ParameterIdentifier%3D0)]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

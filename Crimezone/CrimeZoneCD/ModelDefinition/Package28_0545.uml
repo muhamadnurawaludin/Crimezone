@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a602dc33-1fe1-4114-94d6-1d0555b8a3bb"
+  name="IsolatedStorage"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="21f573f8-215a-488e-b01e-8b3be2bca080"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.IO.IsolatedStorage"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="43ae3213-2fb2-4262-9b46-8ba59bb3dc00"
+        name="IsolatedStorageSettings"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d9dbb766-bab9-4776-9491-a60a35998f12"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Windows.dll&quot; Namespace%3DSystem.IO.IsolatedStorage Type%3DIsolatedStorageSettings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="42761adc-a2ad-4b7f-94f2-a25dcbd1cdf1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0c35ccd-41ee-41e8-a663-c2259f9402a7">
+                <propertyInstance
+                  Id="9037585b-e502-4eb3-8af0-e82283d4705e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0eb8e7e-88f6-4c79-aea8-e27369320030">
+                <propertyInstance
+                  Id="706245fa-74cd-47fb-8402-3a01aa75ac28"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="feda1fa5-28cc-48ee-ba8d-517430253d0e">
+                <propertyInstance
+                  Id="60912a5a-db18-47ab-8469-916cc6fa1f89"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f8166e6-d786-47ef-a4e3-b0e117e47b27">
+                <propertyInstance
+                  Id="9e1b6684-8c38-40aa-aef2-1a84c3eebc76"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe2afc9d-6f22-49f9-8b01-18fbef833915">
+                <propertyInstance
+                  Id="90107658-0c95-436b-80e6-0188a5f48a8d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

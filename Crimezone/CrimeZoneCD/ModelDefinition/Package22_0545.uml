@@ -1,0 +1,2623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5371f098-ea6a-4602-a7a7-8b5824844b55"
+  name="ViewModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d5c9efd2-b5d5-40f2-94e7-2a73586d3b50"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DCrimezone.ViewModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="fcb51e67-c3e6-439d-b809-011f06a8853b"
+        name="IPostingLaporanViewModel"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="0fb861ee-f356-4d10-a51e-8b4fab54834a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DIPostingLaporanViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="384e8a42-dd24-422e-a244-8f4bfafb1807"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2659784d-6b9f-402a-b024-6d7854185173">
+                <propertyInstance
+                  Id="0b96b0ac-fa35-484c-85fa-e68b5164fd91"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00a8c62d-ec17-46f4-abaa-3f853cd54314">
+                <propertyInstance
+                  Id="47e76253-2a2c-4e08-8085-f95c19a6fbaf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="809d59d6-136e-4a70-abfc-b58c656cec30">
+                <propertyInstance
+                  Id="2d3086fc-dd79-4212-b301-2dd9ead2c886"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a242bca7-c1a4-4df9-aa9d-3ec5ae2affc7">
+                <propertyInstance
+                  Id="28d4e0ad-1516-402c-ab61-5e8d0b6174e8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e1455697-54d6-4073-b5ae-932a48be7762"
+            isDerived="false"
+            sourceEndRoleName="IPostingLaporanViewModel"
+            targetEndRoleName="BindKegiatanCollection"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+              LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+              LastKnownLocation="Package23_0545.uml" />
+            <description>Property BindKegiatanCollection references type ObservableCollection&lt;KegiatanPolrestabes‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ea0dbd1-7538-483e-bccb-97dc22aa21a9"
+                  name="IPostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="26b886e2-a2b9-4d32-a8bf-78ee3e4188e0"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8ebb1490-05c3-4a04-990d-0cab554ba6a8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3e787af6-7b2b-402f-87d3-5d296d83bcfb"
+                  name="BindKegiatanCollection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0e725b9e-3743-453d-978d-126a9bb82de4"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0cfacadc-9a7d-4f0a-ab90-ab44d398580f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8a10d8ef-8396-4685-bd44-b4ad8c2afeb7"
+            isDerived="false"
+            sourceEndRoleName="IPostingLaporanViewModel"
+            targetEndRoleName="NamaJenisKejahatan"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5904606f-5bbc-4a5f-b4af-b15b55ad3d07"
+              LastKnownName="JenisKejahatan"
+              LastKnownLocation="Package24_0545.uml" />
+            <description>Property NamaJenisKejahatan references type JenisKejahatan.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="77c7f5b2-7d74-48f2-899e-4560026df922"
+                  name="IPostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cf1a0f0b-ae3a-4c40-92d7-764eec954f42"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="457adf83-9e3f-4ae7-904d-16f46364ffea"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dffdc903-81e6-44e2-8736-7483aacbeb43"
+                  name="NamaJenisKejahatan"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d5329d8a-b50e-45c4-8ece-f453f49f2c1d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="984b3fbc-f81d-4fb3-8f38-97de3ae81995"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b20ed6ae-210d-4e7e-9be7-44001f0ea7a8"
+            isDerived="false"
+            sourceEndRoleName="IPostingLaporanViewModel"
+            targetEndRoleName="LaporanKejahatan"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="bba01dda-69f6-4122-8093-44d6875665fc"
+              LastKnownName="LaporanKejahatan"
+              LastKnownLocation="Package24_0545.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3e782a7-c8a9-4e40-abb2-d87c9663db36"
+                  name="IPostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8118f4e0-e653-4ec1-805b-3878533b671d"
+                  name="LaporanKejahatan"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="a1d3562e-2282-4e27-b27c-9c0f69fd33d0"
+            name="BindKegiatanCollection"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="33583f86-da2e-4a08-b2d8-da3ca5de49e1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DIPostingLaporanViewModel Member%3DBindKegiatanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="babcf8d7-631c-4025-a8aa-e66224bcac30"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f678ad9-a15e-42d3-8a94-8c3ba191d775">
+                    <propertyInstance
+                      Id="c62584fe-88aa-4542-a128-b7129c085709"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="608989d0-8763-4149-9cad-a5e6aad7b17b">
+                    <propertyInstance
+                      Id="16d359ac-7a1c-4dbc-828a-3013fdef7b5b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f67f4a9-6ef9-46e3-8376-9226455a9613">
+                    <propertyInstance
+                      Id="71ea1fc8-faf0-4d00-a21f-3c2f638de897"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e3f4438-9b1e-407a-a590-53fc27d9adad">
+                    <propertyInstance
+                      Id="6c4083e4-0e0d-4c4e-a36f-80e35fd659da"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94973518-ceb2-466c-af4b-7c8c456ea14a">
+                    <propertyInstance
+                      Id="f4b640ae-eac9-4f57-b2df-4352324aa6cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed45152b-0f18-4bfa-8619-621b1df3f375">
+                    <propertyInstance
+                      Id="6b98b042-12f1-4878-a5b4-78623f3a86ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="159d3174-061e-4e71-a9f3-fb720a10e929">
+                    <propertyInstance
+                      Id="3e96e817-5120-4b5a-b4e3-10d35efdd45f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+                LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d3cccfbd-24e4-475d-b4f5-50393ed888be"
+            name="NamaJenisKejahatan"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fc664dfe-1976-4b21-8a85-7153759551dc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DIPostingLaporanViewModel Member%3DNamaJenisKejahatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="065d64c5-4d02-4cd4-9ac1-e4076623774a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f5c2685-f16c-4743-a0d5-3d5b41573128">
+                    <propertyInstance
+                      Id="8f220617-b442-40ac-97a4-d20ed2648e1e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4da33b24-5a5e-4c09-a6b2-acd0a81c79db">
+                    <propertyInstance
+                      Id="674afab9-18d1-4bb8-be49-16f51d72c54f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f40f0af8-e458-4a03-af48-62d89ac8dd5e">
+                    <propertyInstance
+                      Id="c434673f-de22-40bd-bf24-4601a2de8f62"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4708497-aefd-4496-a595-2f1a5613f448">
+                    <propertyInstance
+                      Id="b8a51007-7850-4597-bf12-1511f974f0d3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f169ae54-f028-4b42-a596-b670efab0996">
+                    <propertyInstance
+                      Id="621d0fe4-124d-4e0b-8eae-3926d953b450"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92aa36bc-4ebe-4441-bfd7-5e9367f9a2f2">
+                    <propertyInstance
+                      Id="9f2fe7cd-7326-4ddf-bf0f-40f28dc64f69"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d8f27a5-bac0-4c1b-8a30-69830216ac46">
+                    <propertyInstance
+                      Id="44d081c1-9af1-4fcb-8c8d-259c4b3c6eed"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5904606f-5bbc-4a5f-b4af-b15b55ad3d07"
+                LastKnownName="JenisKejahatan"
+                LastKnownLocation="Package24_0545.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="e060c6f4-1119-492c-a2f5-1635eb5e5f99"
+            name="LoadURL"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0d442ed5-f59e-4e45-9698-68bc46835baa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DIPostingLaporanViewModel Member%3DLoadURL"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="444c0c11-c2cc-46c4-b4dd-c096c16fe8f9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7273298-3e5f-4da5-8ced-1ed547a67f3e">
+                    <propertyInstance
+                      Id="193852d3-cabe-4ac9-92d6-fda92d7e4131"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="131e7053-843b-4c5f-b46f-8944762e0b0c">
+                    <propertyInstance
+                      Id="c50ef1a6-9949-4412-88d9-747986988116"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66f144a6-7007-417c-b842-37a43557ab7f">
+                    <propertyInstance
+                      Id="e1c762c5-679f-4dae-a3a4-f4d3faf53532"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65e7963c-0293-4819-9404-d9daedcf0251">
+                    <propertyInstance
+                      Id="666ae680-6bf9-412d-9068-96b48e60d587"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59b2ead8-d9b6-4236-a4e4-369f787b2ecf">
+                    <propertyInstance
+                      Id="6f3eac4d-49c7-4058-ade4-7b9b405faaac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9737915a-6b88-48ab-af05-9211a477e8e5">
+                    <propertyInstance
+                      Id="9d18a0a1-faa0-40c9-aab8-5999cd078b89"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e97accfa-1963-4690-861f-4fdec56ac368"
+            name="LoadURLKegiatan"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d06d9c13-5dc7-4196-bd17-a116b63aca57"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DIPostingLaporanViewModel Member%3DLoadURLKegiatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ecaf0c5c-06a1-4af9-aa5c-a6da5b832002"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b75c465-477e-4910-9cd6-92dbb09f88f8">
+                    <propertyInstance
+                      Id="24f74ad0-0631-4b65-81b8-eb444cea472f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e0dc3af-48b2-40ce-ab83-0d1c2d457276">
+                    <propertyInstance
+                      Id="791a7786-2a26-4bcc-a4b9-bc3d2ce7ab5a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6375e71c-fe21-4fdb-83b0-cfeef76959c7">
+                    <propertyInstance
+                      Id="87958266-7651-45a9-a5fa-da3a3fdfb43e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39d50e85-ff9e-4bf4-9320-c8da16e8bf3c">
+                    <propertyInstance
+                      Id="e4b8bb2a-56b0-48e4-96f2-fa336cc56ca1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68155a87-d0c4-4795-8b15-9f1e102fc813">
+                    <propertyInstance
+                      Id="b4ca7acb-1f18-4c8e-9e52-fea8a3086f66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9ae4984-84e8-48fd-bdcf-dcee3091fa33">
+                    <propertyInstance
+                      Id="8a2d92a2-4418-4110-86ca-2de522c5360c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="085520ea-61db-4c36-a56d-bf537390c1f5"
+        name="LaporanKejahatanViewModel"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aa87c567-f6be-47fd-80ac-e359b84554cf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="402f05e7-71db-4bec-97c5-63d459d2f4a8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adf25e8f-a8e5-433a-b838-fbb8bdea4a30">
+                <propertyInstance
+                  Id="43b243f2-46db-4f17-bb23-57fc079c53f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff9349bb-46d0-4737-bc1a-c0356ce75c6b">
+                <propertyInstance
+                  Id="a133185e-6be6-4855-8a23-bca5a0d59c14"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87889648-2534-42b8-bf30-6073ca94dd1a">
+                <propertyInstance
+                  Id="379d7110-7819-4d65-aa79-0270563e6dec"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e54189b6-d915-46d4-872a-709adeb6a337">
+                <propertyInstance
+                  Id="f0d7a55f-2b9a-4553-b15c-dbfe85137c17"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf6dec3f-2bb8-4d56-98b8-3f04b3b6d8d0">
+                <propertyInstance
+                  Id="4f6dffe8-070f-43c9-a0a4-59fcd44a0925"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="82526358-0e71-4d4b-bfbd-814d5d3afadd"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5e904197-31a0-46c7-8354-9d435f0030e6"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="Package25_0545.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="e8987269-7b58-4b34-a8fc-04b6f0d1cf19"
+            isDerived="false"
+            sourceEndRoleName="LaporanKejahatanViewModel"
+            targetEndRoleName="BindLaporanCollection"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="75138606-250e-4ba9-b0c7-edd54b4501c0"
+              LastKnownName="ObservableCollection&lt;LaporanKejahatan‎&gt;"
+              LastKnownLocation="Package23_0545.uml" />
+            <description>Property BindLaporanCollection references type ObservableCollection&lt;LaporanKejahatan‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e7d73ee1-c5b8-45f0-8c43-919b0d0ff9b8"
+                  name="LaporanKejahatanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="db81dd74-f4b9-49de-bba5-0e32e98f181b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6d305c06-e7b2-4062-9422-ab2eef64bff7"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="406ea3fa-9df3-4ee1-82c4-f128ee4b1996"
+                  name="BindLaporanCollection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0b452d90-a63c-42ae-bd1d-b42d20c580ae"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="932b80ff-3800-4ae4-b146-81fb3bcc2b0a"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fe015682-ca40-4e5d-bb7b-cc400a1b4c08"
+            isDerived="false"
+            sourceEndRoleName="LaporanKejahatanViewModel"
+            targetEndRoleName="BindKegiatanCollection"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+              LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+              LastKnownLocation="Package23_0545.uml" />
+            <description>Property BindKegiatanCollection references type ObservableCollection&lt;KegiatanPolrestabes‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c47472b0-5c72-4381-9b94-d65b3e3d9d48"
+                  name="LaporanKejahatanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="88b430b2-8187-40b0-94b6-51d2ac574e2c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a7792918-2c2a-45c6-8bdc-d5a3b74e5981"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="77165b32-c9b2-4ae6-8956-a9cb225d30d7"
+                  name="BindKegiatanCollection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ad2d0f65-5d79-4dbd-8cb6-050cab16dcce"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d3ba76cf-5801-4b47-9eb4-d9233636d338"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="230605c7-15ca-4c6b-85fe-4baba9fa18a5"
+            isDerived="false"
+            sourceEndRoleName="LaporanKejahatanViewModel"
+            targetEndRoleName="Helper"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="88e42930-6e09-4b92-9896-f9959d4e675f"
+              LastKnownName="Helper"
+              LastKnownLocation="Package_0545.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="96ad1434-407a-48b9-b61f-f10a5f498bd7"
+                  name="LaporanKejahatanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="490f89c2-5cd1-4673-859d-7f90eeaf5569"
+                  name="Helper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="b6b5ec70-ed04-459a-b49e-11c17486c400"
+            name="BindLaporanCollection"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5a3b3e58-e298-4598-869e-89c482e9b18f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DBindLaporanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e940bc4-0f4f-45b8-b424-5d727f2b3e4e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e2f08b5-0fa7-43c6-a315-86222f6f0483">
+                    <propertyInstance
+                      Id="4e24e355-f8f7-415b-8df7-dd6ba1007f3f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf0da179-21ae-477a-89e8-922430ba0e97">
+                    <propertyInstance
+                      Id="38c5256d-04e4-44c6-ab12-43fbaaa8a382"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8ec18ba-4ee7-4b47-8974-c9ddf7178e69">
+                    <propertyInstance
+                      Id="5494d425-4354-49e0-90e3-fd534b2d519d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="409d123f-94c8-4983-8d6b-8624ee464827">
+                    <propertyInstance
+                      Id="ae5f467b-850d-4521-b7e9-e01c68a4afaa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78450974-6f21-431c-8294-6c3936def72f">
+                    <propertyInstance
+                      Id="2c8f2208-0a27-4820-abc7-d22dd142a177"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2647b59a-3bf5-4c89-b7a7-b9ad34f6ddf5">
+                    <propertyInstance
+                      Id="c238b0fb-6011-44dd-bcc8-96c55589325d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d0a516d-780e-45af-9fd1-40411bd348fa">
+                    <propertyInstance
+                      Id="4eaf421b-ddf0-41cf-b43f-c0aca49d4ac9"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="75138606-250e-4ba9-b0c7-edd54b4501c0"
+                LastKnownName="ObservableCollection&lt;LaporanKejahatan‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9fcda2ef-a279-450c-9d39-3715edf4f571"
+            name="BindKegiatanCollection"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9a062b4e-582c-4fce-a470-ec14987b7997"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DBindKegiatanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e12c487-09dd-428c-8994-624024e1b402"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0be9d266-9206-4096-851f-58a697434bed">
+                    <propertyInstance
+                      Id="a4c11d06-6c18-4fbc-af32-10d929ea05dc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c522f26-9b4e-4769-8dc8-25e2af96264d">
+                    <propertyInstance
+                      Id="517c6927-7f1e-41e0-a35f-068c0cb31b6c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9dc58dd-c2d5-4634-b66f-ab0280e98f05">
+                    <propertyInstance
+                      Id="95f47fce-d708-4dfc-a048-fb8d8e553d2b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e73bc3e-7995-4ade-9232-f882e7d487ea">
+                    <propertyInstance
+                      Id="650e0f93-b6e1-46d2-a008-aed02fb6a3e6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a7d5a29-16c5-415a-875b-6784ab02e7e4">
+                    <propertyInstance
+                      Id="101d567b-49a2-4e91-8a80-fec36cf3ed95"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3d4d8d5-84b0-47e5-89e3-17730c38c626">
+                    <propertyInstance
+                      Id="9fabd026-14c3-42d0-9f84-ba74f1ec9cc5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7441c3c0-4a2e-4741-a635-1839d4ed1f6b">
+                    <propertyInstance
+                      Id="440928f4-d6f4-4a1c-8b7d-ae9952833ce7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+                LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a94e7071-739d-42b9-a77f-d6c92526c192"
+            name="bindLaporanCollection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="60d2f966-9652-4dc7-8503-ada3c0cfd501"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DbindLaporanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b1f6825f-6e9e-4588-ba1f-0eed95c688c3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1215d00-3136-4d9b-a23c-667940f84540">
+                    <propertyInstance
+                      Id="76429cdd-62bd-4e82-9a5c-3866b8a205ae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45d69873-b98e-4c77-9e78-31be333f684e">
+                    <propertyInstance
+                      Id="23fd785e-9d27-4aaf-89ca-8bc78fa457ff"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a99cd46-aec4-4316-b10c-c3f480050159">
+                    <propertyInstance
+                      Id="162a91af-0e55-43fd-b21c-d58ea625f3fa"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45d474d6-b47c-4785-81af-93b937048e1b">
+                    <propertyInstance
+                      Id="9ad386e7-be55-49c5-b21e-57b4e95180db"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c963f12c-7052-41a1-8f83-6cca4b0033ef">
+                    <propertyInstance
+                      Id="37e19070-d0b0-41e2-bf79-2546a9655242"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="75138606-250e-4ba9-b0c7-edd54b4501c0"
+                LastKnownName="ObservableCollection&lt;LaporanKejahatan‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6bd8dbe4-c117-4a6c-82a9-c38d1cdff504"
+            name="bindKegiatanCollection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="173f29f7-d53d-41ff-b1c9-7fd4884f8ae9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DbindKegiatanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c6b397a-8c8f-4f40-85b8-1575d6c4d6b8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3699bfb1-50a6-4b1e-b662-a398aaf0a848">
+                    <propertyInstance
+                      Id="73f8ade2-c2a8-42ae-b9c4-dbcdc1e71d9d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5def838-8c75-4760-ab87-04aa0d49a229">
+                    <propertyInstance
+                      Id="ef1a64b0-1d45-4ec5-b57f-f3fa5fb3d2c6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="012a71fa-159d-4596-bbfb-d847115df9ef">
+                    <propertyInstance
+                      Id="c00525d3-ee7b-4526-8ee0-18d7a86ac8db"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fcf541b-2f4c-4537-96a5-5e4fb5b12591">
+                    <propertyInstance
+                      Id="f1fe6f6c-bb91-4f9a-969d-f0add779675d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d5d857f-2a08-40a1-9632-14d5301785ce">
+                    <propertyInstance
+                      Id="a6ce6ff2-db79-4f58-9e18-6d2a679a16b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+                LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="447586eb-257f-458b-8053-0fbd58b16fe1"
+            name="LoadURL"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fb2060b0-1825-4745-829f-2bf038f9553a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DLoadURL"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="299fb231-b8d7-4d40-9033-0d15bcfe112a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab327595-a88c-4028-b33c-71cf08db4f77">
+                    <propertyInstance
+                      Id="d3d99b30-7619-426c-8e5d-af0b6f4115c8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="925dfafd-7cda-4f9e-ada0-1b0bc1fbf9ea">
+                    <propertyInstance
+                      Id="1ef0a8b1-2aaf-4245-8ed4-a0c63bead056"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="331317f2-ff74-4c05-9ce4-1c61a5a6c3ae">
+                    <propertyInstance
+                      Id="7fc7902d-f0d6-4f39-9aba-e00bb71f1424"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b3061ee-2825-4adf-bc74-af4cead629b5">
+                    <propertyInstance
+                      Id="f2334a92-cb11-4fbf-a2c7-fa4ed769a004"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="450fd6af-de82-4dfd-b204-1c40a81b74bd">
+                    <propertyInstance
+                      Id="d5343570-e5b0-45fe-9c82-771bb39fc858"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ed045ff-fdef-4e5d-ad25-5aa78536e249">
+                    <propertyInstance
+                      Id="613b5a2e-64c1-492f-b365-ad08ea2dde74"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="80055ae3-fd9c-43ef-9a8e-2a91992a5751"
+            name="DownloadLaporanKejahatan"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4a1e1ad3-4a88-42e1-bd2a-04be77db606f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadLaporanKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1fcc00cd-f4a1-46ec-9028-b327475ff0c8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f200889d-6e33-467d-ab37-5dd0927ea485">
+                    <propertyInstance
+                      Id="d71a7552-f3eb-4e13-9a78-b8a535557655"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b8e5b77-7c19-4180-84e6-41b3a2c327c5">
+                    <propertyInstance
+                      Id="7607a5af-7004-47c6-b7a3-b32e99f41d0d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ba9bcbb-0100-4ca6-a41a-82e626edb0f9">
+                    <propertyInstance
+                      Id="bce9b7b4-1ead-48bc-a022-e862ac9f7848"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c5b86a7-6700-4535-8103-e310e5338a5b">
+                    <propertyInstance
+                      Id="14bf0003-49e0-4a18-a154-efe184f415a5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d36f8329-458c-42a5-8314-9d954c9bfa81">
+                    <propertyInstance
+                      Id="b7fdf9a8-534d-4cd9-8e71-da9484629eea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebabcaa3-2a1c-47b7-b23d-870e22cf3b5f">
+                    <propertyInstance
+                      Id="9b4d914c-ee48-40a2-9a8a-d91fc8d321d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2edf807f-6395-47a4-a324-2d1c00d453e1"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1adfe2a2-0afe-41a6-a3c1-59158b6ad73c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadLaporanKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="70163e77-a964-4f0c-b67a-70ee001b32b6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="850b3ec2-872d-4b0f-8c3d-87a3b3d4d6c1"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1e10ec2d-ad7a-44c9-bb42-268391922301"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadLaporanKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cb872ca-759f-4b84-a24d-78a223815573"
+                      LastKnownName="DownloadStringCompletedEventArgs"
+                      LastKnownLocation="Package12_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4a7938c4-1dd0-40df-92fe-27c39fa0eac4"
+            name="LoadURLKegiatan"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="60adc5b2-08cf-4b16-8bf0-1c006842061b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3DLoadURLKegiatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5402a1a3-ec07-464e-8521-24efd684a5c6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eed1e9fa-cc5b-4d94-8422-ce02d6e448d0">
+                    <propertyInstance
+                      Id="30f6a16a-01cf-4cfb-aa80-a86f343ca834"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87aa0ee9-0cff-458a-a91f-fca960238ebf">
+                    <propertyInstance
+                      Id="42c378f9-b083-4c69-ba8f-643e19a2c8ea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e4b168b-cee5-414c-ac10-58ad7e32a6ed">
+                    <propertyInstance
+                      Id="9fb8739c-2fed-44f6-9f5c-8ab1afd7640d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1699e10-cf45-4909-b669-5e941664dd91">
+                    <propertyInstance
+                      Id="252fc6e8-4c75-4c96-80aa-877cd3d6f270"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41ec31da-6ddd-4dc8-b2df-9d12b8519ae2">
+                    <propertyInstance
+                      Id="5380bc2e-6321-4116-b808-514a160015cb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fc5dbca-5ac4-458a-9263-3414407f8669">
+                    <propertyInstance
+                      Id="943191a1-3044-4a8c-8aee-d837ecaf5942"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4858eaf4-f778-4c90-ad3e-efa6365a47e6"
+            name="DownloadKegiatanPolrestabes"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ca5a9cd6-33f1-4306-8250-5b6f9e5a5722"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2500214-aec9-470a-b591-d5271b0c35f5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d155bc50-aeb5-412a-980a-b5e4c37613d1">
+                    <propertyInstance
+                      Id="250db275-405b-4b5b-a022-f1e04558e309"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aeddb25a-38bb-4844-acc4-a06489068007">
+                    <propertyInstance
+                      Id="c7c5f080-f66b-4e1a-8648-d81ef9974faa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="152acfd6-bb6f-42b7-beee-a97dc6af18a6">
+                    <propertyInstance
+                      Id="55fd6f6c-5002-4634-8aea-aa2552a7c97a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0ae38d-8916-4a98-b712-188c0de80d0d">
+                    <propertyInstance
+                      Id="c73b3ece-92e6-461d-a9ed-2a656be02e30"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fef0d31-ff27-41e4-b8c8-2932063047e7">
+                    <propertyInstance
+                      Id="6cbf52a9-a719-4a62-aa14-3459b2497917"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72240ad7-775e-49bb-9d75-b19e3e170674">
+                    <propertyInstance
+                      Id="c2be74bd-0bb3-4bfa-b76c-0c0581dee5c7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="35bca149-6ed1-4ac3-8b56-d2ed9c8c19e8"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53df5f7c-401d-44c6-9c8f-7422a4b5a64c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="70163e77-a964-4f0c-b67a-70ee001b32b6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15d87cc7-04d7-4e89-b56e-51b2db5d1e12"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0615f6ef-e6ff-4570-9154-857f8243cb88"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cb872ca-759f-4b84-a24d-78a223815573"
+                      LastKnownName="DownloadStringCompletedEventArgs"
+                      LastKnownLocation="Package12_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f67bd982-ac8c-4b0e-ba8d-38197ded41af"
+            name="LaporanKejahatanViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="77ad25a8-b014-40c7-9dd1-d12e28275b4f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DLaporanKejahatanViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0e18bef7-3954-405e-9730-3521674c3c8b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7351466-d9a5-4068-80a6-bdb6981415ed">
+                    <propertyInstance
+                      Id="159b16c0-4d8e-4bd8-a5fc-c71116060501"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a572aacd-34f0-41b0-9520-947036f98894">
+                    <propertyInstance
+                      Id="20216d63-4a8c-4497-af22-ce194f7650f6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="012da161-a3f4-4cef-8dc0-b91acf58326b">
+                    <propertyInstance
+                      Id="5a942776-7c0a-42aa-98f4-239a3d3db27b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8893da4-fe42-41df-9c67-04d816b8cdbe">
+                    <propertyInstance
+                      Id="d799d8b4-ba6e-4194-aa2e-777c36d74a33"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ef6935e-33d2-4266-a756-88d136f192fc">
+                    <propertyInstance
+                      Id="3e793aae-28a6-46aa-b808-3225179f03e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee22b5f2-c782-47a8-a098-ad4f65c407b0">
+                    <propertyInstance
+                      Id="95787a11-5cf1-4bbf-95ea-781b02b16f14"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cf599fb3-b417-47fc-a58f-1c19e47c6a41"
+        name="PostingLaporanViewModel"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2a32b17d-afcd-4b49-ac49-6c70975d5675"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="75fffefa-66d0-48a4-9729-9b9fdfa448f0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6ab46e2-ad73-4e22-ad6d-17b513787ca8">
+                <propertyInstance
+                  Id="31f8258d-b434-4e88-af5f-22fa84e595e2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f409f13d-ff9b-4959-9001-fe70555eb75a">
+                <propertyInstance
+                  Id="528e6ecf-db00-486a-8fa3-6f22c000b278"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4673d86-5595-444b-938d-d5c569c8674c">
+                <propertyInstance
+                  Id="3f02b17c-4857-49a4-bd18-a5b49067a91c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e847c270-f378-4cf9-87e7-7881a945f831">
+                <propertyInstance
+                  Id="7330e64b-bb01-4cf0-8f1d-5f3ed8450b84"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b53394a-954e-42cb-b52f-5aaeac039f78">
+                <propertyInstance
+                  Id="3da24c60-7c83-4241-be31-7ca34ba7182f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ea48c840-43f1-4886-9d29-de12be6bb1cb">
+            <interfaceMoniker
+              Id="fcb51e67-c3e6-439d-b809-011f06a8853b"
+              LastKnownName="IPostingLaporanViewModel"
+              LastKnownLocation="Package22_0545.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="503f39d8-c970-4927-9464-889201393e63"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5e904197-31a0-46c7-8354-9d435f0030e6"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="Package25_0545.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="682a3323-7234-4dc9-b377-9f88c0b2c230"
+            isDerived="false"
+            sourceEndRoleName="PostingLaporanViewModel"
+            targetEndRoleName="NamaJenisKejahatan"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5904606f-5bbc-4a5f-b4af-b15b55ad3d07"
+              LastKnownName="JenisKejahatan"
+              LastKnownLocation="Package24_0545.uml" />
+            <description>Property NamaJenisKejahatan references type JenisKejahatan.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88093229-c0e5-4bab-9197-3c36ac860cc2"
+                  name="PostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7f6f7058-304a-4b8a-9173-d9c0bbcfde91"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d6a1b3c5-f79f-4163-9386-01e791c3ce4c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5434f9af-85c6-455d-877d-5ae93c5211c3"
+                  name="NamaJenisKejahatan"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ed96b188-e7c2-42a0-9239-106574a3722d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="49fdbc0d-700b-455b-a87e-0e529f815658"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a12de2e0-b273-4174-839a-815b115581ae"
+            isDerived="false"
+            sourceEndRoleName="PostingLaporanViewModel"
+            targetEndRoleName="BindKegiatanCollection"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+              LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+              LastKnownLocation="Package23_0545.uml" />
+            <description>Property BindKegiatanCollection references type ObservableCollection&lt;KegiatanPolrestabes‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d7cf4bd-088c-4dd1-a90c-533fe21940e5"
+                  name="PostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6d9d4d4c-803d-4f40-a149-0eba97f7f771"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0665f114-952b-40d8-8748-c299388c01f7"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a5b4118b-6e1a-4b44-b1b0-e0fc1a4d7d42"
+                  name="BindKegiatanCollection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="eb8d777b-2f3d-4b05-9f6f-280a40039cd3"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9ead68fc-ab73-46f9-9cab-f71d50604279"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="13871268-8ecd-40b4-b072-fbf7f2a2bfc7"
+            isDerived="false"
+            sourceEndRoleName="PostingLaporanViewModel"
+            targetEndRoleName="LaporanKejahatan"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="bba01dda-69f6-4122-8093-44d6875665fc"
+              LastKnownName="LaporanKejahatan"
+              LastKnownLocation="Package24_0545.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="31910ef1-7ccc-4625-bec8-81d002f8e052"
+                  name="PostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a24d608c-e45f-46af-bd85-27695092b837"
+                  name="LaporanKejahatan"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f819f69f-863f-4b0e-8c15-8b708e10e77b"
+            isDerived="false"
+            sourceEndRoleName="PostingLaporanViewModel"
+            targetEndRoleName="Helper"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="88e42930-6e09-4b92-9896-f9959d4e675f"
+              LastKnownName="Helper"
+              LastKnownLocation="Package_0545.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="200e73ce-772b-4aed-b1a2-2b5d65579a25"
+                  name="PostingLaporanViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e545022-70d8-4648-a9c3-3c35a9354647"
+                  name="Helper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4b49a4b3-fd45-4d50-b816-197b50f655c6"
+            name="PostingLaporanCollection"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b50a6121-995c-4919-91d8-ddf932e92946"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DPostingLaporanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd4d61fd-1c5f-42ff-bcf0-985cf62ca216"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acf3db7a-2f84-477b-9b9e-73c9318d1ebf">
+                    <propertyInstance
+                      Id="6abe6e12-1af1-4f57-8ca2-0b0c4e1621ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9658e7eb-eb80-435f-b875-e13e53149ac3">
+                    <propertyInstance
+                      Id="28bb35a8-d9cf-4cb4-b69d-deeafeb9550a"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aabfc154-36a6-473d-8af5-a3eb938ecc99">
+                    <propertyInstance
+                      Id="0905c61f-3463-4ceb-9330-385d3a0f65b2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ce6a0ce-6f91-46f7-982e-e7bcd33e3b5e">
+                    <propertyInstance
+                      Id="25de468b-1c7b-42ad-8106-5afe791a8fa5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab3dbaf7-82fe-41ae-80fb-2b402b55000e">
+                    <propertyInstance
+                      Id="65db3dbc-6654-44d9-865b-6092058892e3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9d5cf06-426b-4ee6-bdd3-45773abd83a4">
+                    <propertyInstance
+                      Id="0df5d2c4-9bb0-4ec8-a703-fc88b53fbd38"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cff820a-a135-4f2c-a7b8-efd125b3de41">
+                    <propertyInstance
+                      Id="5b22c09c-1ce0-4b4f-b893-324991a9d0d7"
+                      name="Set"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1e9c8747-4b5d-4fb8-a2a5-e1cb98bb3edc"
+                LastKnownName="ObservableCollection&lt;JenisKejahatan‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f469b0fb-52ae-442e-9a81-3a12cb39f25a"
+            name="NamaJenisKejahatan"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f2c53fbe-dbee-44e9-aa4e-a9b53fb3016d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DNamaJenisKejahatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eca538d8-7e42-409d-805a-dda4800539eb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e3296d3-4d40-45ff-92c9-4a6f5f21800b">
+                    <propertyInstance
+                      Id="efd4a5c7-f69d-4972-869a-7707c05c524b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca496b12-5866-4b0c-ad6a-f025f7845e5e">
+                    <propertyInstance
+                      Id="e851e48e-0ea4-4866-86cf-8d8ccc05e837"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60465dc7-ee82-4c87-9459-d3f748441954">
+                    <propertyInstance
+                      Id="065b8863-d4bc-40b7-9489-08b6880f14c5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2840b52-dbd0-44b0-b70f-75d50276fb11">
+                    <propertyInstance
+                      Id="6e40fa0b-a9d3-402a-91ae-b844f8b74373"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c98c778e-6fd5-4b25-a2d8-f44cf2f9759e">
+                    <propertyInstance
+                      Id="c0eca830-65aa-4ad1-954e-a54b0a6301b1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfc76900-fa76-4701-bf89-e60e4009e2c5">
+                    <propertyInstance
+                      Id="b1b02ec9-13da-4586-b30f-b9cf2338eb8e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81f26886-dd73-476b-b6a1-f0f27895d525">
+                    <propertyInstance
+                      Id="20dea92c-614e-4002-87b6-12828392faf0"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5904606f-5bbc-4a5f-b4af-b15b55ad3d07"
+                LastKnownName="JenisKejahatan"
+                LastKnownLocation="Package24_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8b425e0c-6203-4af2-b002-f3192fadb159"
+            name="BindKegiatanCollection"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f3386deb-f922-48fe-8dba-192949be083e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DBindKegiatanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="00c49158-e69a-4373-8aa7-752c81adba69"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eff29ee1-9404-4f5b-a55a-1f57c242b2c7">
+                    <propertyInstance
+                      Id="8236b59c-492d-4e38-a830-26add4ab26eb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0889b983-0ef4-423d-8549-580b776482ff">
+                    <propertyInstance
+                      Id="4d5a522b-22c4-4a95-846d-8d27bf4fc0b4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e534a30-3a6d-4247-b821-a7369b24fb10">
+                    <propertyInstance
+                      Id="c179ccf4-97f8-44db-a909-5ba0789ac8f8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="693c08a4-0eb9-4fe0-8549-09bea9afb91d">
+                    <propertyInstance
+                      Id="27fe9a7a-8da5-489f-9cc1-cc69249978db"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9270679-38fe-4d1a-b150-a41000bf954b">
+                    <propertyInstance
+                      Id="447b6c6f-a944-4df5-a418-6de9eb404ebd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf3c40c0-8acd-447c-b869-b48d6f0cd84f">
+                    <propertyInstance
+                      Id="06413b9b-6e34-4cbf-b4c2-c20ea7264e6d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="635fa7c5-cb62-4729-8bc9-3ce7d1c8a2ff">
+                    <propertyInstance
+                      Id="40b666f5-e489-43b7-82e7-8101d9722f2f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+                LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a7f26a99-d51a-45d1-9c7c-8afad0871c99"
+            name="postingLaporanCollection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="baad4b7a-56fa-40b0-b497-86732c074db2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DpostingLaporanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="854311d1-298c-402e-b35a-861472f510fc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d22749f0-bb40-4cf3-9de3-5fddb726fc88">
+                    <propertyInstance
+                      Id="4db94ff8-f8cb-4680-86f9-28ab05d4f93c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b468ec6-9c66-47f6-aa10-3e64b7cef6c4">
+                    <propertyInstance
+                      Id="a2a8dc8b-abc2-44ee-a187-97ad312cc98b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bc4c5c1-50b5-4bac-9e09-c21ef5e9be73">
+                    <propertyInstance
+                      Id="a1683514-00c5-4b21-9da8-44ae4f712552"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ac1c7ba-978e-48c0-b8b2-1aa3415903d4">
+                    <propertyInstance
+                      Id="4988003f-9bf2-46a3-b020-6b4741241449"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3893150-5a64-4b85-af22-91f4b68b1d40">
+                    <propertyInstance
+                      Id="4217e3b8-2984-4653-af60-6ad0309d16eb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1e9c8747-4b5d-4fb8-a2a5-e1cb98bb3edc"
+                LastKnownName="ObservableCollection&lt;JenisKejahatan‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="86a30ee7-b098-41eb-8a3a-939572af72a9"
+            name="namaJenisKejahatan"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="544996e3-214e-4be7-992e-ed7ea5dc8bac"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DnamaJenisKejahatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4e21662d-a7bb-41af-b9d4-21e6c69fa093"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="166e0986-70c4-4414-9f8e-631eb67b72b4">
+                    <propertyInstance
+                      Id="2ad6d073-e9df-45c5-8e9e-f21b584359f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ead26a70-7c06-44ae-a4c0-728e3a27b25e">
+                    <propertyInstance
+                      Id="1c7f2c0a-afa3-48ed-a0af-56eb26553fe0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a05a9994-19a2-4c6f-b8c6-ef0fb1403ea5">
+                    <propertyInstance
+                      Id="37f6a610-676e-4754-a315-59f885cf0d75"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70b0801d-face-4085-8719-1d6adc5afec0">
+                    <propertyInstance
+                      Id="cea4a1f8-7ba7-4f00-b8c4-828e7c6e5eea"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36448b71-49b2-4126-af86-e56c024b280f">
+                    <propertyInstance
+                      Id="62ce633c-2fc8-4991-b258-45c501225373"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5904606f-5bbc-4a5f-b4af-b15b55ad3d07"
+                LastKnownName="JenisKejahatan"
+                LastKnownLocation="Package24_0545.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e08d6862-135c-4120-b23f-d3d79564e050"
+            name="bindKegiatanCollection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="aef696d3-e3c6-46e0-834c-4f452fe6b169"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DbindKegiatanCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="514061d6-5668-437b-9d96-2f5d1654d8b1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1400bb80-5700-4eb3-b9bd-05f9a72e14b7">
+                    <propertyInstance
+                      Id="41588bdb-3e35-4787-a0a4-c6e076882b24"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cea10c61-ecb7-43af-ab39-59a99256b69e">
+                    <propertyInstance
+                      Id="b80887f1-371c-4ea5-b855-9b34f2d3acee"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c8ee7df-e625-47c8-9c35-900275130e13">
+                    <propertyInstance
+                      Id="9d2bdc9a-2ef2-4580-907f-50bdea722b8f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="846c8937-272e-4ec6-a2d8-225d9af0d25f">
+                    <propertyInstance
+                      Id="2a1fc2c5-497a-4054-bada-835e9ee8b796"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="499eec20-8695-4674-867e-f4c5f1080034">
+                    <propertyInstance
+                      Id="9f95b0fb-a99d-4ebb-a973-be5e28aa9faa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d7d38ed1-9b82-4423-b557-9ecec6178139"
+                LastKnownName="ObservableCollection&lt;KegiatanPolrestabes‎&gt;"
+                LastKnownLocation="Package23_0545.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9b134984-7bf0-4389-9861-3d8e2046d749"
+            name="LoadURL"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6d060ca0-641d-4038-9300-f5b2fda2c307"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DLoadURL"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7dcf4c88-bb66-40b9-905e-16b16f6942ed"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c44cecc6-3561-47cb-898d-d638dd67d3f2">
+                    <propertyInstance
+                      Id="c6768977-b04e-4895-aaf9-e5ee374d6953"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db58e2d1-ad49-49e7-8841-0f077d9ce77b">
+                    <propertyInstance
+                      Id="2cfcfdf0-d807-47f7-922f-f3e9282d312a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee4d166a-bb37-4047-8f57-599ba6616e66">
+                    <propertyInstance
+                      Id="d60bb174-3766-4b9f-bce2-8d1a47a44430"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5a53916-c2c2-4c21-9e3d-27927a4b3b91">
+                    <propertyInstance
+                      Id="d1d54cab-a281-4225-85e3-806bc9ba729a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b73a7385-dd90-412e-97b2-72fcd200b65e">
+                    <propertyInstance
+                      Id="df1ee51b-515c-4945-a413-ed45c7612609"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c61abfe3-1663-4dd2-b217-5576488689dc">
+                    <propertyInstance
+                      Id="dad3d595-363d-4aca-9826-acd9354be1e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="41eef62a-fdf5-4c6e-8e58-222dac583d37"
+            name="DownloadJenisKejahatan"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b07beb27-7d31-48d2-a570-41ba5283fa45"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadJenisKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27845c7b-f0fb-41e4-bf53-682a318df683"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="903f9f5b-ab38-4566-9d6e-5075a412f4a8">
+                    <propertyInstance
+                      Id="30806e3d-735a-4f89-bcfa-5f4d6871673e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b4d9091-308c-4e87-bce2-46dc87996534">
+                    <propertyInstance
+                      Id="9a5557dc-3515-4883-8b3c-00a96fc2db93"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="665defc9-682b-4168-b8c0-42c597c85ab5">
+                    <propertyInstance
+                      Id="f7365ba0-83a7-4b68-b880-6d5e5128ede0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5860d10d-d123-4658-a7ac-bd8f2f528bed">
+                    <propertyInstance
+                      Id="ac9a744b-e18e-459f-895c-c063bb199c97"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e625870-09d0-4834-afde-f7623c5d48f8">
+                    <propertyInstance
+                      Id="dcaf062f-9a7c-419b-b242-f332019b4ad3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f201ff2-7036-41d0-ae53-4b02bf7cb9fc">
+                    <propertyInstance
+                      Id="13aa2c5d-a680-462c-b785-9e5bb8b9a8d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="014dbb8f-c82d-4486-ad58-783ca10fc5a4"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53340ec1-459f-405b-9cd2-5d57148f1673"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadJenisKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="70163e77-a964-4f0c-b67a-70ee001b32b6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4f55a398-e106-4e24-9096-2bdfb16a75e0"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c1514614-fb2a-471b-84fd-178b54d1cb8d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadJenisKejahatan OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cb872ca-759f-4b84-a24d-78a223815573"
+                      LastKnownName="DownloadStringCompletedEventArgs"
+                      LastKnownLocation="Package12_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="15b0afd9-5067-48a7-995b-e337ab2e54cc"
+            name="LoadURLKegiatan"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8c65fd77-8fc7-4ce1-aab5-cc5c402ed58e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3DLoadURLKegiatan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe59e0bb-a15b-4a22-9494-a0d4874e6466"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7849e852-2d55-4c0b-a53e-c292ac7aa3e4">
+                    <propertyInstance
+                      Id="d4de4efc-4fdd-4546-812b-bd318556a0ff"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a3935fe-4332-4ca2-9124-8cc5ac765517">
+                    <propertyInstance
+                      Id="9033a8d8-8842-4f13-93db-62ea933d0071"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f682a88-f91d-425d-baea-eeb087354abc">
+                    <propertyInstance
+                      Id="b58ba957-cb73-48fe-a04e-d72da65eea04"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88f1b10-20d7-46e8-ae8e-749da90ba7b5">
+                    <propertyInstance
+                      Id="2f156d3a-a3db-4f3c-b7f9-e534b4777052"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8426d291-a579-4f05-b2bf-8a3a0236e2d2">
+                    <propertyInstance
+                      Id="5c0593c3-75d9-409b-bf07-87389d1719c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4b8a97a-a6a4-449a-aec9-5ea130eaecba">
+                    <propertyInstance
+                      Id="371aa97a-7822-4bfb-8660-330b17fa64e8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c76a020e-b7d4-4be3-934c-f832d1240a5d"
+            name="DownloadKegiatanPolrestabes"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="982d98fb-f640-40b9-9b4f-84b2dfa87b9c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92fb1c5f-0a93-4955-a238-9a4947ea2e25"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92541af0-3ffc-4f8a-81d5-d716e4b93b5a">
+                    <propertyInstance
+                      Id="0a2c97cd-708e-401f-a4a8-1f84bbbb80a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfdc532d-2874-4f2a-9580-f5fd693cf057">
+                    <propertyInstance
+                      Id="922a6c2a-bcc4-4718-80e1-eb0dd73247a5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d13d16f-3ae6-46b7-9e1f-9b56606f061d">
+                    <propertyInstance
+                      Id="f8e6df17-78af-49ff-b3af-3c49133e2816"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edcdb8ab-f3a0-4a5e-9f31-5ada3adfdb91">
+                    <propertyInstance
+                      Id="84f5f5ac-3df5-4d76-a040-7a469e1def6c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c3b630d-7959-414a-8d31-2fb2d97d0de0">
+                    <propertyInstance
+                      Id="210082c8-c516-4e16-a9fd-1b91b2a59463"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d66b5df-2ef4-427d-afb0-c32f001a146f">
+                    <propertyInstance
+                      Id="a651f940-8ea3-4643-b7ce-764b80d299c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f28f65c8-7b9e-454e-a9d3-99c5c1294f15"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1ecf10d9-3a89-4afd-bd5b-aa75cfa05e0f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="70163e77-a964-4f0c-b67a-70ee001b32b6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed7ea937-8d3a-4778-b062-0dbaf6b473f6"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="257a679c-ede4-4529-93f8-06691a5e205b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D(Name%3DDownloadKegiatanPolrestabes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cb872ca-759f-4b84-a24d-78a223815573"
+                      LastKnownName="DownloadStringCompletedEventArgs"
+                      LastKnownLocation="Package12_0545.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5dd4d93c-33d0-4817-83c5-70fa37c2a347"
+            name="PostingLaporanViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4983bae4-d6c7-440c-bcc3-f11016c0e06e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fhandika%2FDocuments%2FVisual Studio 2012%2FProjects%2FCrimezone%2FCrimezone%2FBin%2FRelease%2FCrimezone.dll&quot; Namespace%3DCrimezone.ViewModel Type%3DPostingLaporanViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b7a89d5-d297-49db-9596-c4dd1444c416"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d857c8a-b422-4430-a657-1fb3b0b08372">
+                    <propertyInstance
+                      Id="8bdb577f-fef4-4841-a695-9c17bf24832c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a3711af-7b43-4b71-ba72-3ce3ff7dac1f">
+                    <propertyInstance
+                      Id="6b7cc11e-97f6-4f38-b1da-c7dcc3d34a5e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08e43ebc-3a95-4f67-8a67-e43ff1281368">
+                    <propertyInstance
+                      Id="91738f02-505a-451f-9c1e-c6aa77fd1211"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a702d2cd-279a-42f4-9f8f-4d82b0d37f93">
+                    <propertyInstance
+                      Id="93a0bb30-b093-440c-ab64-298125b5e555"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d742460-1d8c-4184-a756-1b05fd5a9100">
+                    <propertyInstance
+                      Id="fc0ead48-8024-4b0a-beab-19f58ba4add8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d65b47f-784c-4948-b8e5-d5e0eecaa9e1">
+                    <propertyInstance
+                      Id="5ac1fd06-2d6d-43d3-9f33-886470348fe3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

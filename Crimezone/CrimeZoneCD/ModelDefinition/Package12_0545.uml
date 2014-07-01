@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="97926095-cd42-4c02-b130-94e56d8caa4d"
+  name="Net"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0b7c6a46-aa88-4fb3-bd46-2371352bfcc5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Net"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9cb872ca-759f-4b84-a24d-78a223815573"
+        name="DownloadStringCompletedEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aa4da310-7c92-4c84-8ac2-26e8fcc17d37"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3ac54c39-5cc4-416f-8178-2375cbcef782"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f803d46e-2ff0-4bcf-9a56-e02c93bdb2b6">
+                <propertyInstance
+                  Id="a4a7e93d-c74a-4c3e-90ce-9426bfb2d69b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b24d0a10-dd49-4e7d-a169-36c117563f0c">
+                <propertyInstance
+                  Id="a216c200-6fbc-4171-a710-753a08e03d4e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be11e83c-7f67-46cb-b1f0-1eeadc3a32d3">
+                <propertyInstance
+                  Id="2f3d3fe0-b1c3-4c85-bb17-cb0e875cbf73"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce05d286-0933-45cf-94fe-813999249255">
+                <propertyInstance
+                  Id="aa846f91-a6cc-4d34-81d1-7dda5537dd9a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27934374-2ed9-4acd-a709-4239f0b427ee">
+                <propertyInstance
+                  Id="1c63de50-be8f-4a0d-be12-24cea1ac3828"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="45e28246-e868-47f7-8080-c7afb196f7b8"
+        name="UploadStringCompletedEventHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="26c65341-5658-43f3-b460-327b8509404b"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DUploadStringCompletedEventHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6815f6cb-8301-4ae0-b57c-5c511fc8f6b7"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae2ac044-3590-430f-aa26-54421e2e7619">
+                <propertyInstance
+                  Id="bd8b1b3d-2a2e-4142-8e6e-9b9e8619fff2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a98e6e68-c943-47cd-a9d6-1d5d6766d9c7">
+                <propertyInstance
+                  Id="28b5e40c-58a6-4082-bbcf-25bc51e82b22"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54f83ad0-2b65-4981-ab49-bfc12170b3c5">
+                <propertyInstance
+                  Id="37b8029d-d99d-4752-8719-9d26ab7848ae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
